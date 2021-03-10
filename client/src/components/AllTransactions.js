@@ -18,7 +18,3 @@ export const AllTransactions = () => {
         </>
     )
 }
-
-{/* <ul className="list">
-        {transactions.map((transaction,index) => (<Transaction key={index} transaction={transaction} />))}
-      </ul> */}
