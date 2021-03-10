@@ -79,9 +79,7 @@ export const Slice = createSlice({
         transactionProgress: false,
         trxErrorMessage: ''
     },
-    reducers: {
-
-    },
+    reducers: {},
     extraReducers: {
         [web3Loading.fulfilled]: (state, action) => {
             console.log("In fullfil = ", state);
